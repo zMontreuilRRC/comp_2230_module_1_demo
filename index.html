@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Winnipeg Local Guide</title>
+</head>
+<body>
+    <header>
+        <h1>A Local's Guide to Winnipeg</h1>
+        <p>This can contain pretty much anything</p>
+    </header>
+    
+    <!-- navigation section -->
+    <nav>
+        <!-- unordered list -->
+        <ul>
+            <!-- This is a comment -->
+            <li>
+                <!-- a: "anchor" -->
+                <a href="#attractions">Attractions</a>
+            </li>
+            <li>
+                <a href="#dining">Dining</a>
+            </li>
+            <li>
+                <a href="#events">Events</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ctrl + enter = add new line and goto -->
+    <main id="main-content">
+        <section id="attractions">
+            <h2>Main Attractions</h2>
+            <p>
+                Winnipeg is known for its vibrant arts scene, rich history, and cultural diversity. Here are some of the city's top attractions:
+            </p>
+            <ul>
+                <li>
+                    The Forks - a historic site, shopping, and entertainment hub
+                </li>
+                <li>
+                    Manitoba Museum - Dive into the province's history.
+                </li>
+            </ul>
+            <img 
+                src="images/forks.jpg" 
+                alt="The elevator tower at the Winnipeg Forks"
+            />  
+        </section>
+        <section id="dining">
+            <h2>Dining area</h2>
+            <!-- tables require a head (<thead>) and body (<tbody>) -->
+            <table>
+                <!-- indicate column types -->
+                <thead>
+                    <th>Restaurant</th>
+                    <th>Cuisine</th>
+                    <th>Locale</th>
+                </thead>
+                <tbody>
+                    <!-- table rows <tr> containing data <td> -->
+                    <tr>
+                        <!-- restaurant -->
+                        <td>King's Head</td>
+                        <td>English Pub</td>
+                        <td>Exchange District</td>
+                    </tr>
+                    <tr>
+                        <td>PGI</td>
+                        <td>World Cuisine</td>
+                        <td>RRC Exchange Campus</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>
+                    <a href="https://www.todocanada.ca/city/winnipeg/event/manitoba-metalfest/">Manitoba Metalfest</a>
+                </li>
+                <li>
+                    <a href="https://www.winnipegfringe.com">Winnipeg Fringe Festival</a> 
+                    - a yearly collection of theatrical performances
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &#169; 2024 Winnipeg Guide, All Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
