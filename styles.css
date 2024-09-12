@@ -1,12 +1,11 @@
 /* global style */
-
 /* body: selector (all elements in the body element) */
 body {
     /* default and fallback fonts */
     font-family: Arial, sans-serif;
 
     /* text colour */
-    color: #0c0c0c;
+    color: #333;
 
     /* background colour */
     background-color: #f4f4f4;
@@ -22,28 +21,98 @@ body {
     font-size: 100%;
 }
 
+/* #region Anchors */
 a {
-    color: #07c;
     text-decoration: none;
+    color: #0077cc;
 }
 
-/* psuedo-class targets elements when hovered over */
+/* psuedo-class */
 a:hover {
     text-decoration: underline;
-}   
+}
+/* #endregion Anchors */
 
+/* #region Header */
 header {
     background-color: #222;
     color: #fff;
-    text-align: center;
     padding: 1rem 0;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: red;
+}
+/* #endregion Header */
+
+
+main {
+    margin: 2rem auto;
+    width: 80%;
 }
 
-h1{
-    color: green;
+/* #region nav */
+nav {
+    background-color: #333;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+/* #endregion nav */
+
+/* #region attractions */
+#attractions {
+    background-color: #f9f9f9;
+    padding: 1.25rem;
+    border: 2px solid #e0e0e0;
+    margin-bottom: 1.25rem;
+}
+
+#attractions h2 {
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+#attractions-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#attractions-text {
+    align-content: center;
+    width: 40%;
+}
+
+#attractions-text p {
+    text-align: center;
+}
+/* #endregion attractions */
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }

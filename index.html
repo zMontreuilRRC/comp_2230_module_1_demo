@@ -7,14 +7,10 @@
 </head>
 <body>
     <header>
-        <h1 id="red_header">A Local's Guide to Winnipeg</h1>
-        <p>This can contain pretty much anything</p>
-        <h1 id="red_header">Also Red</h1>>
+        <h1>A Local's Guide to Winnipeg</h1>
+        <p>This can <span>contain</span> pretty much anything</p>
     </header>
     
-    <h1>Not green header</h1>
-    
-    <h1>Not green as well</h1>
     <!-- navigation section -->
     <nav>
         <!-- unordered list -->
@@ -37,21 +33,26 @@
     <main id="main-content">
         <section id="attractions">
             <h2>Main Attractions</h2>
-            <p>
-                Winnipeg is known for its vibrant arts scene, rich history, and cultural diversity. Here are some of the city's top attractions:
-            </p>
-            <ul>
-                <li>
-                    The Forks - a historic site, shopping, and entertainment hub
-                </li>
-                <li>
-                    Manitoba Museum - Dive into the province's history.
-                </li>
-            </ul>
-            <img 
-                src="images/forks.jpg" 
-                alt="The elevator tower at the Winnipeg Forks"
-            />  
+            <div id="attractions-container">
+                <div id="attractions-text">
+                    <p>
+                        Winnipeg is known for its vibrant arts scene, rich history, and cultural diversity. Here are some of the city's top attractions:
+                    </p>
+                    <ul>
+                        <li>
+                            The Forks - a historic site, shopping, and entertainment hub
+                        </li>
+                        <li>
+                            Manitoba Museum - Dive into the province's history.
+                        </li>
+                    </ul>
+                </div>
+                <img
+                    class="centred" 
+                    src="images\forks.jpg" 
+                    alt="The elevator tower at the Winnipeg Forks"
+                />  
+            </div>
         </section>
         <section id="dining">
             <h2>Dining area</h2>
